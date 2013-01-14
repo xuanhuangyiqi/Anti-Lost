@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF05161D168C1F8D0057DA7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF05161C168C1F8D0057DA7F /* UIKit.framework */; };
+		FF05161F168C1F8D0057DA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF05161E168C1F8D0057DA7F /* Foundation.framework */; };
+		FF051621168C1F8D0057DA7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF051620168C1F8D0057DA7F /* CoreGraphics.framework */; };
+		FF051627168C1F8D0057DA7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF051625168C1F8D0057DA7F /* InfoPlist.strings */; };
+		FF051629168C1F8D0057DA7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF051628168C1F8D0057DA7F /* main.m */; };
+		FF05162D168C1F8D0057DA7F /* BluetoothAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF05162C168C1F8D0057DA7F /* BluetoothAppDelegate.m */; };
+		FF051630168C1F8D0057DA7F /* BluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF05162F168C1F8D0057DA7F /* BluetoothViewController.m */; };
+		FF051633168C1F8D0057DA7F /* BluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF051631168C1F8D0057DA7F /* BluetoothViewController.xib */; };
+		FF051656168C20AB0057DA7F /* AntiLostSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = FF051655168C20AB0057DA7F /* AntiLostSensor.m */; };
+		FF051658168C21000057DA7F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF051657168C21000057DA7F /* CoreBluetooth.framework */; };
+		FF05166A168C30270057DA7F /* ConnectedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF051668168C30270057DA7F /* ConnectedViewController.m */; };
+		FF05166B168C30270057DA7F /* ConnectedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF051669168C30270057DA7F /* ConnectedViewController.xib */; };
+		FF57A9F8168DBC86009BFA0D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF57A9F7168DBC86009BFA0D /* AudioToolbox.framework */; };
+		FF57AA01168DC228009BFA0D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF57AA00168DC228009BFA0D /* AVFoundation.framework */; };
+		FF57AA03168DC859009BFA0D /* songs.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF57AA02168DC859009BFA0D /* songs.plist */; };
+		FF57AA07168DC92A009BFA0D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF57AA05168DC92A009BFA0D /* SettingsViewController.m */; };
+		FF57AA08168DC92A009BFA0D /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF57AA06168DC92A009BFA0D /* SettingsViewController.xib */; };
+		FF8963BC168DD1D50061F88B /* Icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF8963BB168DD1D50061F88B /* Icon.jpg */; };
+		FF8963BE168DD3790061F88B /* bluetooth smart.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FF8963BD168DD3790061F88B /* bluetooth smart.JPG */; };
+		FF8963C0168DD3800061F88B /* Quintic_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF8963BF168DD3800061F88B /* Quintic_logo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF051618168C1F8D0057DA7F /* Anti-Lost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anti-Lost.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF05161C168C1F8D0057DA7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF05161E168C1F8D0057DA7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF051620168C1F8D0057DA7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF051624168C1F8D0057DA7F /* Anti-Lost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anti-Lost-Info.plist"; sourceTree = "<group>"; };
+		FF051626168C1F8D0057DA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF051628168C1F8D0057DA7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF05162A168C1F8D0057DA7F /* Anti-Lost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Anti-Lost-Prefix.pch"; sourceTree = "<group>"; };
+		FF05162B168C1F8D0057DA7F /* BluetoothAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothAppDelegate.h; sourceTree = "<group>"; };
+		FF05162C168C1F8D0057DA7F /* BluetoothAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothAppDelegate.m; sourceTree = "<group>"; };
+		FF05162E168C1F8D0057DA7F /* BluetoothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BluetoothViewController.h; sourceTree = "<group>"; };
+		FF05162F168C1F8D0057DA7F /* BluetoothViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothViewController.m; sourceTree = "<group>"; };
+		FF051632168C1F8D0057DA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BluetoothViewController.xib; sourceTree = "<group>"; };
+		FF05163A168C1F8D0057DA7F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF051642168C1F8D0057DA7F /* Anti-LostTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Anti-LostTests-Info.plist"; sourceTree = "<group>"; };
+		FF051644168C1F8D0057DA7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF051646168C1F8D0057DA7F /* Anti_LostTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Anti_LostTests.h; sourceTree = "<group>"; };
+		FF051647168C1F8D0057DA7F /* Anti_LostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Anti_LostTests.m; sourceTree = "<group>"; };
+		FF051654168C20AB0057DA7F /* AntiLostSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AntiLostSensor.h; sourceTree = "<group>"; };
+		FF051655168C20AB0057DA7F /* AntiLostSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AntiLostSensor.m; sourceTree = "<group>"; };
+		FF051657168C21000057DA7F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		FF051667168C30270057DA7F /* ConnectedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectedViewController.h; sourceTree = "<group>"; };
+		FF051668168C30270057DA7F /* ConnectedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectedViewController.m; sourceTree = "<group>"; };
+		FF051669168C30270057DA7F /* ConnectedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectedViewController.xib; sourceTree = "<group>"; };
+		FF57A9F7168DBC86009BFA0D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FF57AA00168DC228009BFA0D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FF57AA02168DC859009BFA0D /* songs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = songs.plist; sourceTree = "<group>"; };
+		FF57AA04168DC92A009BFA0D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		FF57AA05168DC92A009BFA0D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		FF57AA06168DC92A009BFA0D /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
+		FF8963BB168DD1D50061F88B /* Icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon.jpg; sourceTree = "<group>"; };
+		FF8963BD168DD3790061F88B /* bluetooth smart.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bluetooth smart.JPG"; sourceTree = "<group>"; };
+		FF8963BF168DD3800061F88B /* Quintic_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Quintic_logo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF051615168C1F8D0057DA7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF57AA01168DC228009BFA0D /* AVFoundation.framework in Frameworks */,
+				FF57A9F8168DBC86009BFA0D /* AudioToolbox.framework in Frameworks */,
+				FF051658168C21000057DA7F /* CoreBluetooth.framework in Frameworks */,
+				FF05161D168C1F8D0057DA7F /* UIKit.framework in Frameworks */,
+				FF05161F168C1F8D0057DA7F /* Foundation.framework in Frameworks */,
+				FF051621168C1F8D0057DA7F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF05160D168C1F8D0057DA7F = {
+			isa = PBXGroup;
+			children = (
+				FF051622168C1F8D0057DA7F /* Anti-Lost */,
+				FF051640168C1F8D0057DA7F /* Anti-LostTests */,
+				FF05161B168C1F8D0057DA7F /* Frameworks */,
+				FF051619168C1F8D0057DA7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF051619168C1F8D0057DA7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF051618168C1F8D0057DA7F /* Anti-Lost.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF05161B168C1F8D0057DA7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF57AA00168DC228009BFA0D /* AVFoundation.framework */,
+				FF57A9F7168DBC86009BFA0D /* AudioToolbox.framework */,
+				FF051657168C21000057DA7F /* CoreBluetooth.framework */,
+				FF05161C168C1F8D0057DA7F /* UIKit.framework */,
+				FF05161E168C1F8D0057DA7F /* Foundation.framework */,
+				FF051620168C1F8D0057DA7F /* CoreGraphics.framework */,
+				FF05163A168C1F8D0057DA7F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF051622168C1F8D0057DA7F /* Anti-Lost */ = {
+			isa = PBXGroup;
+			children = (
+				FF57AA04168DC92A009BFA0D /* SettingsViewController.h */,
+				FF57AA05168DC92A009BFA0D /* SettingsViewController.m */,
+				FF57AA06168DC92A009BFA0D /* SettingsViewController.xib */,
+				FF051654168C20AB0057DA7F /* AntiLostSensor.h */,
+				FF051655168C20AB0057DA7F /* AntiLostSensor.m */,
+				FF05162B168C1F8D0057DA7F /* BluetoothAppDelegate.h */,
+				FF05162C168C1F8D0057DA7F /* BluetoothAppDelegate.m */,
+				FF05162E168C1F8D0057DA7F /* BluetoothViewController.h */,
+				FF05162F168C1F8D0057DA7F /* BluetoothViewController.m */,
+				FF051631168C1F8D0057DA7F /* BluetoothViewController.xib */,
+				FF051667168C30270057DA7F /* ConnectedViewController.h */,
+				FF051668168C30270057DA7F /* ConnectedViewController.m */,
+				FF051669168C30270057DA7F /* ConnectedViewController.xib */,
+				FF051623168C1F8D0057DA7F /* Supporting Files */,
+			);
+			path = "Anti-Lost";
+			sourceTree = "<group>";
+		};
+		FF051623168C1F8D0057DA7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF8963BD168DD3790061F88B /* bluetooth smart.JPG */,
+				FF8963BF168DD3800061F88B /* Quintic_logo.jpg */,
+				FF8963BB168DD1D50061F88B /* Icon.jpg */,
+				FF051624168C1F8D0057DA7F /* Anti-Lost-Info.plist */,
+				FF051625168C1F8D0057DA7F /* InfoPlist.strings */,
+				FF051628168C1F8D0057DA7F /* main.m */,
+				FF05162A168C1F8D0057DA7F /* Anti-Lost-Prefix.pch */,
+				FF57AA02168DC859009BFA0D /* songs.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF051640168C1F8D0057DA7F /* Anti-LostTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF051646168C1F8D0057DA7F /* Anti_LostTests.h */,
+				FF051647168C1F8D0057DA7F /* Anti_LostTests.m */,
+				FF051641168C1F8D0057DA7F /* Supporting Files */,
+			);
+			path = "Anti-LostTests";
+			sourceTree = "<group>";
+		};
+		FF051641168C1F8D0057DA7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF051642168C1F8D0057DA7F /* Anti-LostTests-Info.plist */,
+				FF051643168C1F8D0057DA7F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF051617168C1F8D0057DA7F /* Anti-Lost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF05164B168C1F8D0057DA7F /* Build configuration list for PBXNativeTarget "Anti-Lost" */;
+			buildPhases = (
+				FF051614168C1F8D0057DA7F /* Sources */,
+				FF051615168C1F8D0057DA7F /* Frameworks */,
+				FF051616168C1F8D0057DA7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anti-Lost";
+			productName = "Anti-Lost";
+			productReference = FF051618168C1F8D0057DA7F /* Anti-Lost.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF05160F168C1F8D0057DA7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Bluetooth;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = htedsv;
+			};
+			buildConfigurationList = FF051612168C1F8D0057DA7F /* Build configuration list for PBXProject "Anti-Lost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF05160D168C1F8D0057DA7F;
+			productRefGroup = FF051619168C1F8D0057DA7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF051617168C1F8D0057DA7F /* Anti-Lost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF051616168C1F8D0057DA7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF051627168C1F8D0057DA7F /* InfoPlist.strings in Resources */,
+				FF051633168C1F8D0057DA7F /* BluetoothViewController.xib in Resources */,
+				FF05166B168C30270057DA7F /* ConnectedViewController.xib in Resources */,
+				FF57AA03168DC859009BFA0D /* songs.plist in Resources */,
+				FF57AA08168DC92A009BFA0D /* SettingsViewController.xib in Resources */,
+				FF8963BC168DD1D50061F88B /* Icon.jpg in Resources */,
+				FF8963BE168DD3790061F88B /* bluetooth smart.JPG in Resources */,
+				FF8963C0168DD3800061F88B /* Quintic_logo.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF051614168C1F8D0057DA7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF051629168C1F8D0057DA7F /* main.m in Sources */,
+				FF05162D168C1F8D0057DA7F /* BluetoothAppDelegate.m in Sources */,
+				FF051630168C1F8D0057DA7F /* BluetoothViewController.m in Sources */,
+				FF051656168C20AB0057DA7F /* AntiLostSensor.m in Sources */,
+				FF05166A168C30270057DA7F /* ConnectedViewController.m in Sources */,
+				FF57AA07168DC92A009BFA0D /* SettingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF051625168C1F8D0057DA7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF051626168C1F8D0057DA7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF051631168C1F8D0057DA7F /* BluetoothViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF051632168C1F8D0057DA7F /* en */,
+			);
+			name = BluetoothViewController.xib;
+			sourceTree = "<group>";
+		};
+		FF051643168C1F8D0057DA7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF051644168C1F8D0057DA7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF051649168C1F8D0057DA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yifeng Zhang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yifeng Zhang";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "BFFDFDDC-79CD-40C3-90D8-C2E1B2A22877";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFFDFDDC-79CD-40C3-90D8-C2E1B2A22877";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF05164A168C1F8D0057DA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yifeng Zhang";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yifeng Zhang";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "BFFDFDDC-79CD-40C3-90D8-C2E1B2A22877";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFFDFDDC-79CD-40C3-90D8-C2E1B2A22877";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF05164C168C1F8D0057DA7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yifeng Zhang (7X6NU4Z4TF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yifeng Zhang (7X6NU4Z4TF)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anti-Lost/Anti-Lost-Prefix.pch";
+				INFOPLIST_FILE = "Anti-Lost/Anti-Lost-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D58AF824-C48C-4162-85CC-18E824DEA45F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D58AF824-C48C-4162-85CC-18E824DEA45F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF05164D168C1F8D0057DA7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yifeng Zhang (7X6NU4Z4TF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yifeng Zhang (7X6NU4Z4TF)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Anti-Lost/Anti-Lost-Prefix.pch";
+				INFOPLIST_FILE = "Anti-Lost/Anti-Lost-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D58AF824-C48C-4162-85CC-18E824DEA45F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D58AF824-C48C-4162-85CC-18E824DEA45F";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF051612168C1F8D0057DA7F /* Build configuration list for PBXProject "Anti-Lost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF051649168C1F8D0057DA7F /* Debug */,
+				FF05164A168C1F8D0057DA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF05164B168C1F8D0057DA7F /* Build configuration list for PBXNativeTarget "Anti-Lost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF05164C168C1F8D0057DA7F /* Debug */,
+				FF05164D168C1F8D0057DA7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF05160F168C1F8D0057DA7F /* Project object */;
+}
