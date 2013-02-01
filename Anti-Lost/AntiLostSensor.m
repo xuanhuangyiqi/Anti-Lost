@@ -349,9 +349,9 @@ int alertLevel;
     return TRUE;
 
 }
--(void)changeDistanceStatus
+-(void)changeDistanceStatus:(BOOL)status
 {
-    distanceStatus = !distanceStatus;
+    distanceStatus = status;
     NSLog(@"%@", distanceStatus);
 }
 -(void)changeDistanceLevel:(NSInteger)level

@@ -12,12 +12,14 @@
 
 @interface ConnectedViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UISegmentedControl *alertLevel;
+@property (strong, nonatomic) IBOutlet UISwitch *sw;
 - (IBAction)dis:(id)sender;
 - (IBAction)alert:(id)sender;
 - (IBAction)stopAlert:(id)sender;
 - (IBAction)settings:(id)sender;
 - (IBAction)distanceAlert:(id)sender;
 - (IBAction)levelAlert:(id)sender;
+
 
 
 @end

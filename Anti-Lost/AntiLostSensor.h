@@ -35,7 +35,7 @@
 -(void) setViewController2:(BluetoothViewController *)controller;
 -(void) setConnStatus:(BOOL)b;
 -(BOOL) getConnStatus;
--(void) changeDistanceStatus;
+-(void) changeDistanceStatus:(BOOL)status;
 -(void) changeDistanceLevel:(NSInteger)level;
 @property (readwrite)	CFURLRef		soundFileURLRef;
 @property (readonly)	SystemSoundID	soundFileObject;

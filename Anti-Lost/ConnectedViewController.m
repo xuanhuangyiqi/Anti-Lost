@@ -21,7 +21,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        
     }
     return self;
 }
@@ -39,6 +39,7 @@
 
 - (void)viewDidUnload{
     [self setAlertLevel:nil];
+    [self setSw:nil];
 [super viewDidUnload];}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -67,7 +68,7 @@
 }
 
 - (IBAction)distanceAlert:(id)sender {
-    [[AntiLostSensor sharedInstance] changeDistanceStatus];
+    [[AntiLostSensor sharedInstance] changeDistanceStatus: self.sw.on];
 }
 
 - (IBAction)levelAlert:(id)sender {
